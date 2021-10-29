@@ -7,8 +7,13 @@ Simple project to get my feet wet with python. Uses a backtracking algorithm to 
   - Added print_board, find_empty
   - Imported starting board from the internet
 
+10/29/21
+  - Implemented backtracking algorithm
+  - Added solve and valid
+  - Implemented simple print functions to check solution
+
 ## TODO  
   - [x] Setup repository 
   - [x] Implement non-algorithm helper methods
-  - [ ] Implement backtracking algorithm to solve board 
+  - [x] Implement backtracking algorithm to solve board 
   - [ ] Implement GUI functionality  
