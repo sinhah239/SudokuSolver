@@ -12,8 +12,12 @@ Simple project to get my feet wet with python. Uses a backtracking algorithm to 
   - Added solve and valid
   - Implemented simple print functions to check solution
 
+10/31/21
+  - Added GUI
+  - Project finished! (for now)
+
 ## TODO  
   - [x] Setup repository 
   - [x] Implement non-algorithm helper methods
   - [x] Implement backtracking algorithm to solve board 
-  - [ ] Implement GUI functionality  
+  - [x] Implement GUI functionality  
