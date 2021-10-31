@@ -30,6 +30,18 @@ board = [
 ] # the starting board that needs to be solved
 
 def solve(bo):
+    """
+    DESCRIPTION
+    uses a backtracking algorithm to solve the board
+    uses find_empty and valid
+    recursively backtracks
+
+    PARAMETERS
+    bo: board to be solved
+
+    RETURN
+    returns true if board is solved
+    """
     find = find_empty(bo)
     if not find:
         return True
@@ -48,6 +60,19 @@ def solve(bo):
     return False
     
 def valid(bo, num, pos):
+    """
+    DESCRIPTION
+    checks if a number in a spot is valid
+    validity is determined according to sudoku rules 
+
+    PARAMETERS
+    bo: board to be solved
+    num: number being checked (1-9)
+    pos: position being checked
+
+    RETURN
+    returns true if valid 
+    """
     # Check row
     for i in range(len(bo[0])):
         if bo[pos[0]][i] == num and pos[1] != i:
@@ -114,6 +139,7 @@ def find_empty(bo):
     return None
 
 
+# prints board before and after solution
 print_board(board)
 solve(board)
 print("                             ")
