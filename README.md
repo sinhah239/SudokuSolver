@@ -14,6 +14,7 @@ Simple project to get my feet wet with python. Uses a backtracking algorithm to 
 
 10/31/21
   - Added GUI
+  - Used pygame
   - Project finished! (for now)
 
 ## TODO  
